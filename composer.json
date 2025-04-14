@@ -7,5 +7,10 @@
             "email": "85433483+MohamedIbrahimAbdulghani@users.noreply.github.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Classes\\": "Classes"
+        }
+    }
 }
