@@ -1,0 +1,5 @@
+1- single responsibility principle 
+    --> A class should have one and only one reason to change, meaning that a class should have only one job
+    معينة او وظيفةواحده معينه task يعمل  class لازم كل  task بتاعك يعمل اكتر من  class يعني مينفعش ال 
+
+2- 
