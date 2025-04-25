@@ -8,6 +8,7 @@ class MatchClass {
     private $defense;
     private $keeper;
 
+    
     public function __construct()
     {
         $this->attack = new AttackClass();
@@ -15,6 +16,6 @@ class MatchClass {
         $this->keeper = new KeeperClass();
     }
     public function start() {
-        echo "Start Play";
+        echo "Start Play" . "<br>";
     }
 }
