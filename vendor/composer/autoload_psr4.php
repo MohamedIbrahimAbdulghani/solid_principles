@@ -6,5 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Interfaces\\' => array($baseDir . '/Interfaces'),
     'Classes\\' => array($baseDir . '/Classes'),
 );

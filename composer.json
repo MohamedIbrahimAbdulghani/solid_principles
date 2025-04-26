@@ -1,16 +1,17 @@
 {
-    "name": "mohamedibrahim/solid_principles",
-    "description": "Solid in PHP example",
-    "authors": [
-        {
-            "name": "Mohamed Ibrahim Abdulghani",
-            "email": "85433483+MohamedIbrahimAbdulghani@users.noreply.github.com"
-        }
-    ],
-    "require": {},
-    "autoload": {
-        "psr-4": {
-            "Classes\\": "Classes"
-        }
+  "name": "mohamedibrahim/solid_principles",
+  "description": "Solid in PHP example",
+  "authors": [
+    {
+      "name": "Mohamed Ibrahim Abdulghani",
+      "email": "85433483+MohamedIbrahimAbdulghani@users.noreply.github.com"
     }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Classes\\": "Classes",
+      "Interfaces\\": "Interfaces"
+    }
+  }
 }
