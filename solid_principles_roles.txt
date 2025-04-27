@@ -9,4 +9,6 @@
 
 3- Liskov substitution principle
     --> Let "A" be a parent class and "B" is the child class from A. then let "C" use "B" if we change "B" with "A" in "C" class the implementation in "C" should not change
-    class "C" تاني خالص اسمه  class وايجي  class "A" ده بيورث من  class "B" وكان ال "B" تاني اسمه  class و  "A" اسمه  class لو عندك
+    مش هتتغير "C" في ال  implementation ال "C" في ال  "A" من ال  "B" لو انت غيرت ال  , class "B" بيستخدم  class "C" وكان  class "C" تاني خالص اسمه  class وايجي  class "A" ده بيورث من  class "B" وكان ال "B" تاني اسمه  class و  "A" اسمه  class لو عندك
+
+    -> 
