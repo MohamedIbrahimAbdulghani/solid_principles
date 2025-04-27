@@ -6,3 +6,7 @@
     --> Objects or entities should be open for extension, but closed for modification
     وتعدل علي الجديد مش علي الكلاس الاساسي او الاصلي extension يعني انك تكتب الكود مرة واحده بس لما تيجي تعدل عليه تعمله 
     *-* نفسه class من غير ماتغير في ال  behavior يعني تقدر تغير في ال 
+
+3- Liskov substitution principle
+    --> Let "A" be a parent class and "B" is the child class from A. then let "C" use "B" if we change "B" with "A" in "C" class the implementation in "C" should not change
+    class "C" تاني خالص اسمه  class وايجي  class "A" ده بيورث من  class "B" وكان ال "B" تاني اسمه  class و  "A" اسمه  class لو عندك
