@@ -14,19 +14,19 @@ class MatchClass {
         $this->attack = new AttackClass();
         $this->defense = new DefenseClass();
         $this->keeper = new KeeperClass();
-
         $this->PlayersList = $players;
     }
     public function start() {
         echo "Start Match" . "<br>";
         foreach($this->PlayersList as $player) {
-            if($player instanceof AttackClass) {
-                $player->Attack();
-            } elseif($player instanceof DefenseClass) {
-                $player->Defense();
-            } elseif($player instanceof KeeperClass) {
-                $player->Keeper();
-            }
+            // if($player instanceof AttackClass) {
+            //     $player->Attack();
+            // } elseif($player instanceof DefenseClass) {
+            //     $player->Defense();
+            // } elseif($player instanceof KeeperClass) {
+            //     $player->Keeper();
+            // }
+            $player->play();
         }
     }
 }
