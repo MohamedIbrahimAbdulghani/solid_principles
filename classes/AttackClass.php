@@ -2,13 +2,11 @@
 
 namespace Classes;
 
+use Interfaces\AttackInterface;
 use Interfaces\PlayerInterface;
 
-class AttackClass implements PlayerInterface {
-    public function attack() {
-        echo "this is attack function" . "<br>";
-    }
-    public function play() {
+class AttackClass implements AttackInterface {
+    public function Attack() {
         echo "Play Ya Attack" . "<br>";
     }
 }

@@ -2,13 +2,11 @@
 
 namespace Classes;
 
+use Interfaces\DefenseInterface;
 use Interfaces\PlayerInterface;
 
-class DefenseClass implements PlayerInterface {
-    public function defense() {
-        echo "this is defense function" . "<br>";
-    }
-    public function play() {
+class DefenseClass implements DefenseInterface {
+    public function Defense() {
         echo "Play Ya Defense" . "<br>";
     }
 }

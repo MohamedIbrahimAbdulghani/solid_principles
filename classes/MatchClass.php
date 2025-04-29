@@ -20,7 +20,7 @@ class MatchClass {
     public function start() {
         echo "Start Match" . "<br>";
         foreach($this->PlayersList as $player) {
-            $player->play();
+            $player->Attack();
         }
     }
 }

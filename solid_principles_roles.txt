@@ -1,18 +1,20 @@
 *-* write this command when you run project (php -S localhost:80)
-1- single responsibility principle 
+1 - single responsibility principle 
     --> A class should have one and only one reason to change, meaning that a class should have only one job
     معينة او وظيفةواحده معينه task يعمل  class لازم كل  task بتاعك يعمل اكتر من  class يعني مينفعش ال 
 
-2- open-close principle
+2 - open-close principle
     --> Objects or entities should be open for extension, but closed for modification
     وتعدل علي الجديد مش علي الكلاس الاساسي او الاصلي extension يعني انك تكتب الكود مرة واحده بس لما تيجي تعدل عليه تعمله 
     *-* نفسه class من غير ماتغير في ال  behavior يعني تقدر تغير في ال 
 
-3- Liskov substitution principle
+3 - Liskov substitution principle
     --> Let "A" be a parent class and "B" is the child class from A. then let "C" use "B" if we change "B" with "A" in "C" class the implementation in "C" should not change
     مش هتتغير "C" في ال  implementation ال "C" في ال  "A" من ال  "B" لو انت غيرت ال  , class "B" بيستخدم  class "C" وكان  class "C" تاني خالص اسمه  class وايجي  class "A" ده بيورث من  class "B" وكان ال "B" تاني اسمه  class و  "A" اسمه  class لو عندك
 
-4- Interface segregation principle
+4 - Interface segregation principle
     --> A client should never be forced to implement an interface that it doesn't use or clients shouldn't be forced to depend on methods they do not use .
     هو مش بيستخدمها method ل  implement هو مش بيستخدمه او مينفعش اجبره انه يعمل  interface من خلال  implement معين انه يعمل  class يعني مينفعش اجبر 
-    
+
+
+5 - 
