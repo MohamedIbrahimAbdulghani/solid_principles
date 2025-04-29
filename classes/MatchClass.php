@@ -20,7 +20,13 @@ class MatchClass {
     public function start() {
         echo "Start Match" . "<br>";
         foreach($this->PlayersList as $player) {
-            $player->Attack();
+            if($player instanceof AttackClass) {
+                $player->Attack();
+            } elseif($player instanceof DefenseClass) {
+                $player->Defense();
+            } elseif($player instanceof KeeperClass) {
+                $player->Keeper();
+            }
         }
     }
 }

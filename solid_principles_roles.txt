@@ -1,4 +1,5 @@
 *-* write this command when you run project (php -S localhost:80)
+
 1 - single responsibility principle 
     --> A class should have one and only one reason to change, meaning that a class should have only one job
     معينة او وظيفةواحده معينه task يعمل  class لازم كل  task بتاعك يعمل اكتر من  class يعني مينفعش ال 
@@ -17,4 +18,6 @@
     هو مش بيستخدمها method ل  implement هو مش بيستخدمه او مينفعش اجبره انه يعمل  interface من خلال  implement معين انه يعمل  class يعني مينفعش اجبر 
 
 
-5 - 
+5 - Dependency inversion principle
+    --> Entities must depend on abstractions not on concretions . It states that the high level module must not depend no the low level module, but they should depend on abstractions
+    low level module مينفعش يعتمد علي ال  high level module يعني ال 
